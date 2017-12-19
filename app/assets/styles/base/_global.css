@@ -1,11 +1,5 @@
-@font-face {
-    font-family: Ubuntu-L;
-    src: url('../../fonts/Ubuntu-L.ttf')
-    format('truetype');
-}
-
 body {
-    font-family: 'Ubuntu-L', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: #333;
 }
 
