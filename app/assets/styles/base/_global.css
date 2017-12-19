@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Ubuntu-L;
+    src: url('../../fonts/Ubuntu-L.ttf')
+    format('truetype');
+}
+
+body {
+    font-family: 'Ubuntu-L', sans-serif;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
