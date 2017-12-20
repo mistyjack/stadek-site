@@ -1,16 +1,48 @@
 .btn {
     background-color: $mainBlue;
+    position: relative;
     color: #fff;
     text-decoration: none;
     padding: .75rem 1.2rem;
     display: inline-block;
+    border-radius: 1.25rem;
+    margin-bottom: .75rem;
+    box-shadow: 0 0.20rem rgba($mainOrange, .7);
+
+    
     &--red {
         background-color: $mainOrange;
     }
     &--large {
         padding: 1.1rem 1.9rem;
+        border-radius: 1.875rem;
+        box-shadow: 0 0.25rem rgba($mainBlue, .7);
+
         @mixin atSmall {
             font-size: 1.25rem;
         }
     }
+}
+
+/* Effect on hover */
+.btn:hover {
+    top: 0.125rem;
+    box-shadow: 0 0.120rem rgba($mainOrange, .7);
+}
+
+.btn--large:hover {
+    top: 0.125rem;
+    box-shadow: 0 0.125rem rgba($mainBlue, .7);
+}
+
+
+/* Effect when active */
+.btn:active {
+    top: 3px;
+    box-shadow: none;
+}
+
+.btn--large:active {
+    top: 3px;
+    box-shadow: none;
 }

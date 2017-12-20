@@ -574,10 +574,15 @@ img {
 
 .btn {
     background-color: #4cb5f5;
+    position: relative;
     color: #fff;
     text-decoration: none;
     padding: .75rem 1.2rem;
     display: inline-block;
+    border-radius: 1.25rem;
+    margin-bottom: .75rem;
+    -webkit-box-shadow: 0 0.20rem rgba(179,193,0, .7);
+            box-shadow: 0 0.20rem rgba(179,193,0, .7);
 }
 
 .btn--red {
@@ -586,6 +591,9 @@ img {
 
 .btn--large {
         padding: 1.1rem 1.9rem;
+        border-radius: 1.875rem;
+        -webkit-box-shadow: 0 0.25rem rgba(76,181,245, .7);
+                box-shadow: 0 0.25rem rgba(76,181,245, .7);
     }
 
 @media (min-width: 530px) {
@@ -594,6 +602,34 @@ img {
             font-size: 1.25rem
     }
     }
+
+/* Effect on hover */
+
+.btn:hover {
+    top: 0.125rem;
+    -webkit-box-shadow: 0 0.120rem rgba(179,193,0, .7);
+            box-shadow: 0 0.120rem rgba(179,193,0, .7);
+}
+
+.btn--large:hover {
+    top: 0.125rem;
+    -webkit-box-shadow: 0 0.125rem rgba(76,181,245, .7);
+            box-shadow: 0 0.125rem rgba(76,181,245, .7);
+}
+
+/* Effect when active */
+
+.btn:active {
+    top: 3px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+
+.btn--large:active {
+    top: 3px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
 
 .headline {
     font-size: 1.9rem;
@@ -977,7 +1013,7 @@ img {
     }
 
 .site-header {
-    padding: 10px 0;
+    padding: 0.3525rem 0 0 0;
     position: absolute;
     z-index: 2;
     width: 100%;
@@ -1045,7 +1081,7 @@ img {
 .site-footer {
     background-color: #4cb5f5;
     color: #fff;
-    padding: 0.5rem 0;
+    padding: 0.5rem 0 0 0;
     text-align: center;
 }
 
@@ -1059,6 +1095,7 @@ img {
 
 .site-footer__text {
             display: inline;
+            margin-top: 1rem;
             margin-bottom: 0;
             margin-right: 1.4rem
     }
