@@ -15,27 +15,39 @@
 
 <body>
 
-    <header>
-        <img src="" alt="logo">
+    <header class="site-header">
+        <section class="wrapper">
+            <section class="site-header__logo">
+                <img src="" alt="logo">
+            </section>
 
-        <a href="#" class="btn btn--orange">Get in Touch</a>
+            <section class="site-header__menu-icon">
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="#home">Home</a>
-                </li>
-                <li>
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#services">Services</a>
-                </li>
-                <li>
-                    <a href="#testimonials">Testimonials</a>
-                </li>
-            </ul>
-        </nav>
+            </section>
+            
+            <section class="site-header__menu-content">
+                <section class="site-header__btn-container">
+                    <a href="#" class="btn btn--orange">Get in Touch</a>
+                </section>
+                
+                <nav class="primary-nav primary-nav--pull-right">
+                    <ul>
+                        <li>
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#services">Services</a>
+                        </li>
+                        <li>
+                            <a href="#testimonials">Testimonials</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </section>
     </header>
 
     <main>
@@ -57,7 +69,7 @@
             </section>
         </section>
 
-        <section id="about" class="page-section">
+        <section id="about">
             <section class="wrapper">
                 <h2 class="headline headline--centered headline--light headline--b-margin-small">We are
                     <strong>Stadek Aluminium Venture.</strong>
@@ -72,7 +84,7 @@
             </section>
         </section>
 
-        <section id="services" class="page-section page-section__blue">
+        <section id="services" class="page-section page-section__blue page-section--top-margin">
 
             <section class="wrapper">
                 <h2 class="section-title">
@@ -84,28 +96,13 @@
                     <section class="row__large-4">
 
                         <section class="service-item">
-                            <h3 class="service-item__title">Lorem Ipsum</h3>
+                            <h3 class="service-item__title">Aluminium Product</h3>
                             <p>Duis voluptate est nisi ad magna magna. Occaecat aliquip officia ullamco reprehenderit ea occaecat.
                                 Id officia qui fugiat ea in nisi. Lorem laborum enim enim Lorem.</p>
                         </section>
 
                         <section class="service-item">
-                            <h3 class="service-item__title">Lorem Ipsum</h3>
-                            <p>Duis voluptate est nisi ad magna magna. Occaecat aliquip officia ullamco reprehenderit ea occaecat.
-                                Id officia qui fugiat ea in nisi. Lorem laborum enim enim Lorem.</p>
-                        </section>
-                    </section>
-                    
-                    <section class="row__large-4">
-
-                        <section class="service-item">
-                            <h3 class="service-item__title">Lorem Ipsum</h3>
-                            <p>Duis voluptate est nisi ad magna magna. Occaecat aliquip officia ullamco reprehenderit ea occaecat.
-                                Id officia qui fugiat ea in nisi. Lorem laborum enim enim Lorem.</p>
-                        </section>
-
-                        <section class="service-item">
-                            <h3 class="service-item__title">Lorem Ipsum</h3>
+                            <h3 class="service-item__title">Arc Bending</h3>
                             <p>Duis voluptate est nisi ad magna magna. Occaecat aliquip officia ullamco reprehenderit ea occaecat.
                                 Id officia qui fugiat ea in nisi. Lorem laborum enim enim Lorem.</p>
                         </section>
@@ -114,13 +111,28 @@
                     <section class="row__large-4">
 
                         <section class="service-item">
-                            <h3 class="service-item__title">Lorem Ipsum</h3>
+                            <h3 class="service-item__title">Security Fence Wire</h3>
                             <p>Duis voluptate est nisi ad magna magna. Occaecat aliquip officia ullamco reprehenderit ea occaecat.
                                 Id officia qui fugiat ea in nisi. Lorem laborum enim enim Lorem.</p>
                         </section>
 
                         <section class="service-item">
-                            <h3 class="service-item__title">Lorem Ipsum</h3>
+                            <h3 class="service-item__title">Office Partitioning</h3>
+                            <p>Duis voluptate est nisi ad magna magna. Occaecat aliquip officia ullamco reprehenderit ea occaecat.
+                                Id officia qui fugiat ea in nisi. Lorem laborum enim enim Lorem.</p>
+                        </section>
+                    </section>
+
+                    <section class="row__large-4">
+
+                        <section class="service-item">
+                            <h3 class="service-item__title">Erection of -- Rubber</h3>
+                            <p>Duis voluptate est nisi ad magna magna. Occaecat aliquip officia ullamco reprehenderit ea occaecat.
+                                Id officia qui fugiat ea in nisi. Lorem laborum enim enim Lorem.</p>
+                        </section>
+
+                        <section class="service-item">
+                            <h3 class="service-item__title">Glass Merchant</h3>
                             <p>Duis voluptate est nisi ad magna magna. Occaecat aliquip officia ullamco reprehenderit ea occaecat.
                                 Id officia qui fugiat ea in nisi. Lorem laborum enim enim Lorem.</p>
                         </section>
@@ -131,50 +143,61 @@
 
         </section>
 
-        <section id="testimonials">
-            <section class="wrapper">
-                <h2>
-                    <i class="fa fa-comments" aria-hidden="true"></i> Real
+        <section id="testimonials" class="page-section--no-b-pad-until-large page-section--testimonials">
+            <section class="wrapper wrapper--no-pad-until-large">
+                <h2 class="section-title section-title--blue">
+                    <i class="fa fa-comments section-title__icon" aria-hidden="true"></i> Real
                     <strong>Testimonials</strong>
                 </h2>
 
-                <section class="testimonial testimonial--top-pad">
-                    <section class="testimonial__photo">
-                        <img sizes="160px" srcset="" alt="Laka Segbe">
+                <section class="row row--gutters row--t-padding row--equal-height-at-large row--gutters-small generic-content-container">
+
+                    <section class="row__large-4">
+                        <section class="testimonial testimonial--top-pad">
+                            <section class="testimonial__photo">
+                                <img sizes="160px" srcset="" alt="Laka Segbe">
+                            </section>
+
+                            <h3 class="testimonial__title">Laka Segbe</h3>
+                            <h4 class="testimonial__subtitle">Lorem Ipsum Text</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, unde explicabo eaque, enim nesciunt
+                                recusandae, obcaecati cupiditate minima officia libero esse nemo ducimus minus odit natus
+                                ipsam deleniti alias magnam?
+                            </p>
+                        </section>
                     </section>
 
-                    <h3 class="testimonial__title">Laka Segbe</h3>
-                    <h4 class="testimonial__subtitle">Lorem Ipsum Text</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, unde explicabo eaque, enim nesciunt recusandae,
-                        obcaecati cupiditate minima officia libero esse nemo ducimus minus odit natus ipsam deleniti alias
-                        magnam?
-                    </p>
-                </section>
+                    <section class="row__large-4">
+                        <section class="testimonial testimonial--top-pad">
+                            <section class="testimonial__photo">
+                                <img sizes="160px" srcset="" alt="Laka Segbe">
+                            </section>
 
-                <section class="testimonial testimonial--top-pad">
-                    <section class="testimonial__photo">
-                        <img sizes="160px" srcset="" alt="Gamba ri">
+                            <h3 class="testimonial__title">Laka Segbe</h3>
+                            <h4 class="testimonial__subtitle">Lorem Ipsum Text</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, unde explicabo eaque, enim nesciunt
+                                recusandae, obcaecati cupiditate minima officia libero esse nemo ducimus minus odit natus
+                                ipsam deleniti alias magnam?
+                            </p>
+                        </section>
                     </section>
 
-                    <h3 class="testimonial__title">Gamba ri</h3>
-                    <h4 class="testimonial__subtitle">Lorem Ipsum Text</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, unde explicabo eaque, enim nesciunt recusandae,
-                        obcaecati cupiditate minima officia libero esse nemo ducimus minus odit natus ipsam deleniti alias
-                        magnam?
-                    </p>
-                </section>
+                    <section class="row__large-4">
+                        <section class="testimonial testimonial--top-pad">
+                            <section class="testimonial__photo">
+                                <img sizes="160px" srcset="" alt="Laka Segbe">
+                            </section>
 
-                <section class="testimonial testimonial--top-pad">
-                    <section class="testimonial__photo">
-                        <img sizes="160px" srcset="" alt="Kangi di">
+                            <h3 class="testimonial__title">Laka Segbe</h3>
+                            <h4 class="testimonial__subtitle">Lorem Ipsum Text</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, unde explicabo eaque, enim nesciunt
+                                recusandae, obcaecati cupiditate minima officia libero esse nemo ducimus minus odit natus
+                                ipsam deleniti alias magnam?
+                            </p>
+                        </section>
                     </section>
 
-                    <h3 class="testimonial__title">Kangi di</h3>
-                    <h4 class="testimonial__subtitle">Lorem Ipsum Text</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, unde explicabo eaque, enim nesciunt recusandae,
-                        obcaecati cupiditate minima officia libero esse nemo ducimus minus odit natus ipsam deleniti alias
-                        magnam?
-                    </p>
+
                 </section>
 
             </section>
