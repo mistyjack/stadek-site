@@ -33,16 +33,16 @@
                 <nav class="primary-nav primary-nav--pull-right">
                     <ul>
                         <li>
-                            <a href="#home">Home</a>
+                            <a href="#home" id="home-link">Home</a>
                         </li>
                         <li>
-                            <a href="#about">About</a>
+                            <a href="#about" id="about-link">About</a>
                         </li>
                         <li>
-                            <a href="#services">Services</a>
+                            <a href="#services" id="service-link">Services</a>
                         </li>
                         <li>
-                            <a href="#testimonials">Testimonials</a>
+                            <a href="#testimonials" id="testimonial-link">Testimonials</a>
                         </li>
                     </ul>
                 </nav>
@@ -51,7 +51,7 @@
     </header>
 
     <main>
-        <section id="home" class="large-al">
+        <section id="home" class="large-al pg-section" data-matching-link="#home-link">
             <picture>
                 <source srcset="assets/images/al--large.jpg 1920w, assets/images/al--large-i-dpi.jpg 3840w" media="(min-width: 1380px)">
                 <source srcset="assets/images/al--medium.jpg 1380w, assets/images/al--medium-i-dpi.jpg 2760w" media="(min-width: 990px)">
@@ -63,13 +63,13 @@
                 <section class="wrapper">
                     <h1 class="large-al__title">Stadek Aluminium</h1>
 
-                    <p class="large-al__description">We make the cleanest aluminium products that live up to their names</p>
+                    <p class="large-al__description">We do <strong>world class</strong> aluminium product fabrication and installation.</p>
                     <a href="#" class="btn btn--red btn--large">Find Out More</a>
                 </section>
             </section>
         </section>
 
-        <section id="about">
+        <section id="about" class="pg-section" data-matching-link="#about-link">
             <section class="wrapper">
                 <h2 class="headline headline--centered headline--light headline--b-margin-small">We are
                     <strong>Stadek Aluminium Venture.</strong>
@@ -84,7 +84,7 @@
             </section>
         </section>
 
-        <section id="services" class="page-section page-section__blue page-section--top-margin">
+        <section id="services" data-matching-link="#service-link" class="page-section pg-section page-section__blue page-section--top-margin">
 
             <section class="wrapper">
                 <h2 class="section-title">
@@ -143,7 +143,7 @@
 
         </section>
 
-        <section id="testimonials" class="page-section--no-b-pad-until-large page-section--testimonials">
+        <section id="testimonials" data-matching-link="#testimonial-link" class="page-section pg-section page-section--no-b-pad-until-large page-section--testimonials">
             <section class="wrapper wrapper--no-pad-until-large">
                 <h2 class="section-title section-title--blue">
                     <i class="fa fa-comments section-title__icon" aria-hidden="true"></i> Real
