@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link rel="stylesheet" href="./temp/styles/styles.css">
     <script src="https://use.fontawesome.com/be6d8f77e2.js"></script>
+    <script src="/temp/scripts/Vendor.js"></script>
 
     <title>Stadek Aluminium</title>
 </head>
@@ -80,7 +81,7 @@
                 </h3>
 
                 <picture class="sliding-img">
-                    <img srcset="assets/images/temporary.jpg" alt="temporary">
+                    <img class="lazyload" data-srcset="assets/images/temporary.jpg" alt="temporary">
                 </picture>
             </section>
         </section>
@@ -144,7 +145,7 @@
 
         </section>
 
-        <section id="testimonials" data-matching-link="#testimonial-link" class="page-section pg-section page-section--no-b-pad-until-large page-section--testimonials">
+        <section id="testimonials" data-matching-link="#testimonial-link" class="page-section pg-section page-section--no-b-pad-until-large page-section--testimonials lazyload">
             <section class="wrapper wrapper--no-pad-until-large">
                 <h2 class="section-title section-title--blue">
                     <i class="fa fa-comments section-title__icon" aria-hidden="true"></i> Real
@@ -231,7 +232,7 @@
         </section>
     </section>
 
-    <script src="./temp/scripts/compiledApp.js"></script>
+    <script src="./temp/scripts/App.js"></script>
 
 </body>
 
