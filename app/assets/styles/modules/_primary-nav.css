@@ -44,7 +44,7 @@
         background-color: rgba($mainBlue, .5);
 
         @mixin atMedium {
-            padding: 12px 0;
+            padding: 15px 0;
             font-style: 1rem;
             background-color: transparent;
         }
