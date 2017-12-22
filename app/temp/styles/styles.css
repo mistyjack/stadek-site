@@ -890,14 +890,14 @@ img {
 
 @media (min-width: 800px) {
 
-.flexbox .row--equal-height-at-medium {
+.row--equal-height-at-medium {
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex
     }
     }
 
-.flexbox .row--equal-height-at-medium>section {
+.row--equal-height-at-medium>section {
             float: none;
             display: -webkit-box;
             display: -ms-flexbox;
@@ -906,14 +906,14 @@ img {
 
 @media (min-width: 1010px) {
 
-.flexbox .row--equal-height-at-large {
+.row--equal-height-at-large {
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex
     }
     }
 
-.flexbox .row--equal-height-at-large>section {
+.row--equal-height-at-large>section {
             float: none;
             display: -webkit-box;
             display: -ms-flexbox;
