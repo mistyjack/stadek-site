@@ -23,9 +23,9 @@
         }
     }
 
-    strong {
+    /* strong {
         font-weight: 600;
-    }
+    } */
 
     &--narrow {
         max-width: 500px;
