@@ -71,8 +71,8 @@
             </section>
         </section>
 
-        <section id="about" class="pg-section" data-matching-link="#about-link">
-            <section class="wrapper">
+        <section id="about" class="pg-section page-section page-section--no-t-pad" data-matching-link="#about-link">
+            <section class="wrapper wrapper--large">
                 <h2 class="headline headline--centered headline--light headline--b-margin-small">We are
                     <strong>Stadek Aluminium Venture.</strong>
                 </h2>
@@ -80,9 +80,18 @@
                     <strong>Aluminium Products.</strong>
                 </h3>
 
-                <picture class="sliding-img">
-                    <img class="lazyload" data-srcset="assets/images/temporary.jpg" alt="temporary">
-                </picture>
+                <section class="sliding-images">
+                    <picture>
+                        <img src="assets/images/temporary.jpg" alt="temporary">
+                    </picture>
+                    <picture>
+                        <img src="assets/images/temporary.jpg" alt="temporary">
+                    </picture>
+                    <picture>
+                        <img src="assets/images/temporary.jpg" alt="temporary">
+                    </picture>
+                </section>
+
             </section>
         </section>
 
@@ -219,14 +228,41 @@
             <strong>Touch</strong>
         </h2>
 
-        <section class="social-icons">
-            <a href="" class="social-icons__icon"><i class="fa fa-facebook fa-2x icon icon--more-x" aria-hidden="true"></i></a>
-            <a href="" class="social-icons__icon"><i class="fa fa-twitter fa-2x icon" aria-hidden="true"></i></a>
-            <a href="" class="social-icons__icon"><i class="fa fa-youtube fa-2x icon" aria-hidden="true"></i></a>
-            <a href="" class="social-icons__icon"><i class="fa fa-instagram fa-2x icon" aria-hidden="true"></i></a>
-            <a href="" class="social-icons__icon"><i class="fa fa-whatsapp fa-2x icon" aria-hidden="true"></i></a>
+        <section class="row row--gutters ">
+            <section class="form wrapper row__large-8">
+                <form action="">
+                    <label for="">Your Name</label>
+                    <input type="text" placeholder="Enter your name">
+                    <br>
+                    <label for="">Your Email</label>
+                    <input type="text" placeholder="Enter your email">
+                    <br>
+                    <label for="">Your Message</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <br>
+
+                </form>
+            </section>
+
+            <section class="social-icons row__large-4">
+                <a href="" class="social-icons__icon">
+                    <i class="fa fa-facebook fa-2x icon icon--more-x" aria-hidden="true"></i>
+                </a>
+                <a href="" class="social-icons__icon">
+                    <i class="fa fa-twitter fa-2x icon" aria-hidden="true"></i>
+                </a>
+                <a href="" class="social-icons__icon">
+                    <i class="fa fa-youtube fa-2x icon" aria-hidden="true"></i>
+                </a>
+                <a href="" class="social-icons__icon">
+                    <i class="fa fa-instagram fa-2x icon" aria-hidden="true"></i>
+                </a>
+                <a href="" class="social-icons__icon">
+                    <i class="fa fa-whatsapp fa-2x icon" aria-hidden="true"></i>
+                </a>
+            </section>
         </section>
-        
+
         <section class="modal__close">
             X
         </section>

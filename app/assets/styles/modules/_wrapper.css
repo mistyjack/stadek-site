@@ -39,4 +39,9 @@
             padding-right: 18px;
         }
     }
+
+    &--large {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
 }

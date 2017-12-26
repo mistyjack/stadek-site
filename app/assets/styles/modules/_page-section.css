@@ -9,7 +9,7 @@
     }
 
     &__blue {
-        background-color: #34675c;
+        background-color: $mainGreen;
         color: #fff;
     }
     &--testimonials {
@@ -27,6 +27,9 @@
         @mixin atMedium {
             padding-bottom: 4.5rem;
         }
+    }
+    &--no-t-pad {
+        padding-top: 0;
     }
     &--no-b-pad-until-large {
         padding-bottom: 0;

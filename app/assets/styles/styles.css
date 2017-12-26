@@ -1,7 +1,9 @@
 @import "normalize.css";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+@import "base/_variables.css";
 @import "base/_global.css";
 @import "base/_mixins.css";
-@import "base/_variables.css";
 @import "modules/_wrapper.css";
 @import "modules/_large-al.css";
 @import "modules/_btn.css";
@@ -18,3 +20,4 @@
 @import "modules/_reveal-item.css";
 @import "modules/_modal.css";
 @import "modules/_social-icons.css";
+@import "modules/_form.css";
