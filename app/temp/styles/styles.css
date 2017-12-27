@@ -1034,12 +1034,23 @@ img {
     }
     }
 
+.headline--tiny {
+        font-size: 0.8rem;
+    }
+
+@media (min-width: 800px) {
+
+.headline--tiny {
+            font-size: 1.5rem
+    }
+    }
+
 /* strong {
         font-weight: 600;
     } */
 
 .headline--narrow {
-        max-width: 500px;
+        max-width: 650px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1121,13 +1132,14 @@ img {
     font-size: 2.55rem;
     font-weight: 300;
     text-align: center;
+    margin: 0.5rem auto;
 }
 
 .section-title--blue {
         color: #4cb5f5;
     }
 
-@media (min-width: 530px) {
+@media (min-width: 800px) {
 
 .section-title {
         font-size: 3.75rem
