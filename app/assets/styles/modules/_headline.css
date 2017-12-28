@@ -23,21 +23,15 @@
         }
     }
 
-    &--tiny {
-        font-size: 0.8rem;
-        @mixin atMedium {
-            font-size: 1.5rem;
-        }
-    }
-
     /* strong {
         font-weight: 600;
     } */
 
     &--narrow {
-        max-width: 650px;
+        max-width: 550px;
         margin-left: auto;
         margin-right: auto;
+        padding: 0.3rem;
     }
     &--light {
         font-weight: 100;
