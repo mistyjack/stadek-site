@@ -1,39 +1,39 @@
         .icon {
-            background-image: url('../sprite/css/sprite-4c739b9c.svg');
+            background-image: url('/assets/images/sprites/sprite-9d08776c.svg');
         }
     .icon--ic_directions_black_24px {
-        width: 400px ;
-        height: 400px ;
+        width: 30px ;
+        height: 30px ;
+        
+        background-position: 50% 70.69767441860465% ;
+    }
+    .icon--ic_email_black_24px {
+        width: 64px ;
+        height: 51.2px ;
         
         background-position: 0 0 ;
     }
-    .icon--ic_email_black_24px {
-        width: 400px ;
-        height: 400px ;
-        
-        background-position: 50% 0 ;
-    }
     .icon--ic_location_on_black_24px {
-        width: 400px ;
-        height: 400px ;
+        width: 21px ;
+        height: 30px ;
         
-        background-position: 0 100% ;
+        background-position: 68.61313868613139% 70.69767441860465% ;
     }
     .icon--ic_message_black_24px {
-        width: 400px ;
-        height: 400px ;
+        width: 64px ;
+        height: 64px ;
         
-        background-position: 50% 100% ;
+        background-position: 0 98.46153846153847% ;
     }
     .icon--ic_phone_black_24px {
-        width: 400px ;
-        height: 400px ;
+        width: 30px ;
+        height: 30px ;
         
         background-position: 100% 0 ;
     }
     .icon--ic_star_black_24px {
-        width: 400px ;
-        height: 400px ;
+        width: 64px ;
+        height: 60.8px ;
         
-        background-position: 100% 100% ;
+        background-position: 68.08510638297872% 0 ;
     }

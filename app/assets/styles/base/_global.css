@@ -3,6 +3,11 @@
     color: $mainGreen !important;
 }
 
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('/assets/fonts/Ubuntu-R.ttf') format('truetype');
+}
+
 body {
     font-family: 'Ubuntu', sans-serif;
     color: #333;
