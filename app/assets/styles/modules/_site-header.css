@@ -33,8 +33,8 @@
         /* get back to */
         transition: transform .3s ease-out;
         transform-origin: 50% 0;
-        background-color: $mainBlue;
-        padding: 25px 36px;
+        background-color: #fff;
+        padding: 0.2rem 0.3rem;
 
         @mixin atMedium {
             left: auto;

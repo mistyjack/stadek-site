@@ -1149,7 +1149,6 @@ img {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 0.6rem;
-        
     }
 
 @media (min-width: 530px) {
@@ -1161,11 +1160,29 @@ img {
             margin-left: 0;
             margin-bottom: 0;
             display: inline-block
+    }
+    }
+
+.section-title__icon--logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+@media (min-width: 530px) {
+
+.section-title__icon--logo {
+            position: relative;
+            margin-right: 0;
+            margin-left: 0;
+            margin-bottom: 0;
+            display: inline-block
         
     }
     }
 
-.section-title__icon --less-t {
+.section-title__icon--logo --less-t {
             top: 0.1rem;
         }
 
@@ -1460,8 +1477,8 @@ img {
         transition: transform .3s ease-out, -webkit-transform .3s ease-out;
         -webkit-transform-origin: 50% 0;
                 transform-origin: 50% 0;
-        background-color: #4cb5f5;
-        padding: 25px 36px;
+        background-color: #fff;
+        padding: 0.2rem 0.3rem;
     }
 
 @media (min-width: 800px) {
@@ -1742,48 +1759,59 @@ img {
         }
 
 .icon {
-            background-image: url('/assets/images/sprites/sprite-9d08776c.svg');
+            background-image: url('/assets/images/sprites/sprite-b1d799d5.svg');
         }
+
+.icon--SAV {
+        width: 112.465px ;
+        height: 97px ;
+        
+        background-position: 0 0 ;
+    }
 
 .icon--ic_directions_black_24px {
         width: 30px ;
         height: 30px ;
         
-        background-position: 50% 70.69767441860465% ;
+        background-position: 76.50680272108843% 39.083969465648856% ;
     }
 
 .icon--ic_email_black_24px {
         width: 64px ;
         height: 51.2px ;
         
-        background-position: 0 0 ;
+        background-position: 99.52654867256638% 0 ;
     }
 
 .icon--ic_location_on_black_24px {
         width: 21px ;
         height: 30px ;
         
-        background-position: 68.61313868613139% 70.69767441860465% ;
+        background-position: 91.32371794871794% 39.083969465648856% ;
     }
 
 .icon--ic_message_black_24px {
         width: 64px ;
         height: 64px ;
         
-        background-position: 0 98.46153846153847% ;
+        background-position: 0 100% ;
     }
 
 .icon--ic_phone_black_24px {
         width: 30px ;
         height: 30px ;
         
-        background-position: 100% 0 ;
+        background-position: 87.07482993197279% 74.04580152671755% ;
     }
 
 .icon--ic_star_black_24px {
         width: 64px ;
         height: 60.8px ;
         
-        background-position: 68.08510638297872% 0 ;
+        background-position: 56.63716814159292% 96.8063872255489% ;
     }
+
+.maps {
+    height: 30%;
+}
 
