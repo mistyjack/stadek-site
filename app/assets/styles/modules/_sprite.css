@@ -1,5 +1,5 @@
         .icon {
-            background-image: url('/assets/images/sprites/sprite-b1d799d5.svg');
+            background-image: url('/assets/images/sprites/sprite-f1bcc376.svg');
         }
     .icon--SAV {
         width: 112.465px ;
@@ -7,11 +7,23 @@
         
         background-position: 0 0 ;
     }
+    .icon--ic_contacts_black_24px {
+        width: 25px ;
+        height: 30px ;
+        
+        background-position: 73.99013157894737% 39.083969465648856% ;
+    }
     .icon--ic_directions_black_24px {
         width: 30px ;
         height: 30px ;
         
-        background-position: 76.50680272108843% 39.083969465648856% ;
+        background-position: 93.51360544217687% 39.083969465648856% ;
+    }
+    .icon--ic_email-small_black_24px {
+        width: 22.5px ;
+        height: 18px ;
+        
+        background-position: 96.44012944983818% 67.83216783216783% ;
     }
     .icon--ic_email_black_24px {
         width: 64px ;
@@ -23,7 +35,7 @@
         width: 21px ;
         height: 30px ;
         
-        background-position: 91.32371794871794% 39.083969465648856% ;
+        background-position: 82.05128205128206% 74.04580152671755% ;
     }
     .icon--ic_message_black_24px {
         width: 64px ;
@@ -32,10 +44,10 @@
         background-position: 0 100% ;
     }
     .icon--ic_phone_black_24px {
-        width: 30px ;
-        height: 30px ;
+        width: 18px ;
+        height: 18px ;
         
-        background-position: 87.07482993197279% 74.04580152671755% ;
+        background-position: 80.50314465408805% 88.81118881118881% ;
     }
     .icon--ic_star_black_24px {
         width: 64px ;

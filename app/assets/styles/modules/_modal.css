@@ -11,6 +11,16 @@
     transform: scale(1.2);
     transition: all .3s ease-out;
 
+    &--text-content {
+        display: block;
+        color: $mainGreen;
+        text-align: center;
+        transform: scale(0.7);
+        @mixin atMedium {
+            transform: scale(1);
+        }
+    }
+
     &--is-visible {
         opacity: 1;
         visibility: visible;
@@ -31,4 +41,14 @@
             cursor: pointer;
         }
     }
+
+    > section #maps {
+        height: 7rem;
+        width: 100%;
+
+        @mixin atMedium {
+            height: 14rem;
+        }
+    }
 }
+

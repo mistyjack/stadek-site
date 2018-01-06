@@ -11,6 +11,17 @@
         font-size: 3.75rem;
     }
 
+    &--scale {
+        transform: scale(0.7);
+        transition: scale .3s ease-out;
+        margin: 0;
+        @mixin atMedium {
+            transform: scale(1);
+            transform-origin: bottom right;
+            margin: 3.1125rem;
+        }
+    }
+
     /* strong {
         font-weight: 600;
     } */
@@ -29,6 +40,30 @@
             margin-bottom: 0;
             display: inline-block;
         }
+
+        &--more-t {
+            @mixin atSmall {
+                top: 1rem;
+            }
+        }
+
+        &--less-t {
+            @mixin atSmall {
+                top: 0.3rem;
+            }
+        }
+
+        &--special {
+            position: relative;
+            bottom: -0.8rem;
+            right: 0.2rem;
+            display: inline-block;
+            @mixin atSmall {
+                top: 0.1rem;
+                right: 0.2rem;
+            }
+        }
+        
     }
 
     &__icon--logo {
@@ -46,21 +81,7 @@
 
         --less-t {
             top: 0.1rem;
-        }
-        
+        } 
     }
 
-    &__icon--more-t {
-
-        @mixin atSmall {
-            top: 1rem;
-        }
-    }
-
-    &__icon--less-t {
-
-        @mixin atSmall {
-            top: 0.3rem;
-        }
-    }
 }

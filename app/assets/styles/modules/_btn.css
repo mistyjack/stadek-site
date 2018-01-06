@@ -14,11 +14,13 @@
         background-color: $mainOrange;
     }
     &--large {
-        padding: 1.1rem 1.9rem;
         border-radius: 1.875rem;
         box-shadow: 0 0.25rem rgba($mainBlue, .7);
+        font-size: 0.75rem;
+        margin-top: 2rem;
 
-        @mixin atSmall {
+        @mixin atMedium {
+            padding: 1.1rem 1.9rem;
             font-size: 1.25rem;
         }
     }

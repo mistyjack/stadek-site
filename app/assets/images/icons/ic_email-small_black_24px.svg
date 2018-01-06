@@ -7,12 +7,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   height="30"
-   viewBox="0 0 30 30"
-   width="30"
+   height="18"
+   viewBox="0 0 22.5 18"
+   width="22.5"
    version="1.1"
    id="svg6"
-   sodipodi:docname="ic_directions_black_24px.svg"
+   sodipodi:docname="ic_email-small_black_24px.svg"
    style="fill:#000000"
    inkscape:version="0.92.2 (unknown)">
   <metadata
@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -42,20 +42,20 @@
      inkscape:window-height="713"
      id="namedview8"
      showgrid="false"
-     inkscape:zoom="8.34375"
-     inkscape:cx="13.183521"
-     inkscape:cy="32"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="10"
+     inkscape:cy="8"
      inkscape:window-x="61"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg6" />
   <path
-     d="M 29.56114,13.942236 16.057764,0.43886025 c -0.585146,-0.585147 -1.530382,-0.585147 -2.115528,0 L 0.43885973,13.942236 c -0.5851463,0.585146 -0.5851463,1.530382 0,2.115528 L 13.942236,29.56114 c 0.585146,0.585147 1.530382,0.585147 2.115528,0 L 29.56114,16.057764 c 0.585147,-0.570142 0.585147,-1.515378 0,-2.115528 z m -11.567892,4.816203 v -3.750937 h -6.0015 v 4.501125 H 8.9909977 v -6.0015 c 0,-0.825206 0.6751687,-1.500375 1.5003753,-1.500375 h 7.501875 V 8.2558143 l 5.251313,5.2513127 z"
+     d="m 20.25,0 h -18 C 1.0125,0 0.01125,1.0125 0.01125,2.25 L 0,15.75 C 0,16.9875 1.0125,18 2.25,18 h 18 c 1.2375,0 2.25,-1.0125 2.25,-2.25 V 2.25 C 22.5,1.0125 21.4875,0 20.25,0 Z m 0,4.5 -9,5.625 -9,-5.625 V 2.25 l 9,5.625 9,-5.625 z"
      id="path2"
      inkscape:connector-curvature="0"
-     style="fill:#4cb5f5;fill-opacity:1;stroke-width:1.50037503" />
+     style="stroke-width:1.125;fill:#b3c100;fill-opacity:1" />
   <path
-     d="m -2.0075,8.0075003 h 24 V 32.0075 h -24 z"
+     d="M -2,-2 H 22 V 22 H -2 Z"
      id="path4"
      inkscape:connector-curvature="0"
      style="fill:none" />
