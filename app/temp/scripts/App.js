@@ -11823,7 +11823,8 @@ var Carousel = function () {
                 fade: true,
                 cssEase: 'linear',
                 arrows: true,
-                autoplay: true
+                autoplay: true,
+                autoplayspeed: 2000
             });
         }
     }]);
