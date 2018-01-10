@@ -41,12 +41,14 @@
         display: block;
         padding: 5px 8px;
         font-size: .8rem;
-        background-color: rgba($mainOrange, .5);
+        background-color: $mainOrange;
+        border: .1rem solid $mainGreen;
 
         @mixin atMedium {
             padding: 15px 0;
             font-style: 1rem;
             background-color: transparent;
+            border: none;
 
             &.is-current-link {
                 color: $mainOrange;

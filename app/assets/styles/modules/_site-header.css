@@ -7,7 +7,7 @@
 
 
     &--is-expanded {
-        background-color: rgba($mainBlue, .55);
+        background-color: rgba($mainBlue, .5);
     }
 
     @mixin atMedium {

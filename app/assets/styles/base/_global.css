@@ -22,3 +22,10 @@ img {
 * {
     box-sizing: border-box;
 }
+
+.images {
+    height: 9.375%;
+    width: 24%;
+    margin: 0.15%;
+    border: 0.1875rem solid $mainBlue;
+}

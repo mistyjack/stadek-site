@@ -833,6 +833,13 @@ img {
             box-sizing: border-box;
 }
 
+.images {
+    height: 9.375%;
+    width: 24%;
+    margin: 0.15%;
+    border: 0.1875rem solid #4cb5f5;
+}
+
 .wrapper {
     overflow: hidden;
     padding-left: 18px;
@@ -1505,7 +1512,7 @@ img {
 }
 
 .site-header--is-expanded {
-        background-color: rgba(76,181,245, .55);
+        background-color: rgba(76,181,245, .5);
     }
 
 @media (min-width: 800px) {
@@ -1751,7 +1758,8 @@ img {
         display: block;
         padding: 5px 8px;
         font-size: .8rem;
-        background-color: rgba(179,193,0, .5);
+        background-color: #b3c100;
+        border: .1rem solid #34675c;
     }
 
 @media (min-width: 800px) {
@@ -1759,7 +1767,8 @@ img {
 .primary-nav a {
             padding: 15px 0;
             font-style: 1rem;
-            background-color: transparent
+            background-color: transparent;
+            border: none
     }
 
             .primary-nav a.is-current-link {
