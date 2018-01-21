@@ -1,6 +1,10 @@
         .icon {
             background-image: url('/assets/images/sprites/sprite-7e0afafa.svg');
         }
+
+        .no-svg .icon {
+            background-image: url('/assets/images/sprites/sprite-7e0afafa.png');
+        }
     .icon--SAV {
         width: 114.47px ;
         height: 99px ;

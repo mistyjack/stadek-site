@@ -1373,14 +1373,14 @@ img {
 
 @media (min-width: 800px) {
 
-.row--equal-height-at-medium {
+.flexbox .row--equal-height-at-medium {
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex
     }
     }
 
-.row--equal-height-at-medium>section {
+.flexbox .row--equal-height-at-medium>section {
             float: none;
             display: -webkit-box;
             display: -ms-flexbox;
@@ -1389,14 +1389,14 @@ img {
 
 @media (min-width: 1010px) {
 
-.row--equal-height-at-large {
+.flexbox .row--equal-height-at-large {
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex
     }
     }
 
-.row--equal-height-at-large>section {
+.flexbox .row--equal-height-at-large>section {
             float: none;
             display: -webkit-box;
             display: -ms-flexbox;
@@ -1860,6 +1860,10 @@ img {
 
 .icon {
             background-image: url('/assets/images/sprites/sprite-7e0afafa.svg');
+        }
+
+.no-svg .icon {
+            background-image: url('/assets/images/sprites/sprite-7e0afafa.png');
         }
 
 .icon--SAV {
