@@ -1297,19 +1297,19 @@ img {
         .row--gutters {
             margin-right: -65px;
         }
-        .row--gutters>section {
+        .row--gutters>div {
             padding-right: 65px;
         }
         .row--gutters-large {
             margin-right: -100px;
         }
-        .row--gutters-large>section {
+        .row--gutters-large>div {
             padding-right: 100px;
         }
         .row--gutters-small {
             margin-right: -45px;
         }
-        .row--gutters-small>section {
+        .row--gutters-small>div {
             padding-right: 45px;
         }
         .row--t-padding {
@@ -1380,7 +1380,7 @@ img {
     }
     }
 
-.flexbox .row--equal-height-at-medium>section {
+.flexbox .row--equal-height-at-medium>div {
             float: none;
             display: -webkit-box;
             display: -ms-flexbox;
@@ -1396,7 +1396,7 @@ img {
     }
     }
 
-.flexbox .row--equal-height-at-large>section {
+.flexbox .row--equal-height-at-large>div {
             float: none;
             display: -webkit-box;
             display: -ms-flexbox;

@@ -4,19 +4,19 @@
         &--gutters {
             margin-right: -65px;
         }
-        &--gutters>section {
+        &--gutters>div {
             padding-right: 65px;
         }
         &--gutters-large {
             margin-right: -100px;
         }
-        &--gutters-large>section {
+        &--gutters-large>div {
             padding-right: 100px;
         }
         &--gutters-small {
             margin-right: -45px;
         }
-        &--gutters-small>section {
+        &--gutters-small>div {
             padding-right: 45px;
         }
         &--t-padding {
@@ -77,7 +77,7 @@
         @mixin atMedium {
             display: flex;
         }
-        &>section {
+        &>div {
             float: none;
             display: flex;
         }
@@ -86,7 +86,7 @@
         @mixin atLarge {
             display: flex;
         }
-        &>section {
+        &>div {
             float: none;
             display: flex;
         }
