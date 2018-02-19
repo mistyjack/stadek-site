@@ -1,6 +1,6 @@
 .slick-prev:before,
 .slick-next:before {
-    color: $mainGreen !important;
+    color: $mainOrange !important;
 }
 
 @font-face {

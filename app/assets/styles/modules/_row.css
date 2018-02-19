@@ -19,6 +19,26 @@
         &--gutters-small>div {
             padding-right: 45px;
         }
+
+        /* gutters special */
+        &--gutters-special {
+            margin-left: -65px;
+        }
+        &--gutters-special>div {
+            padding-left: 65px;
+        }
+        &--gutters-special-large {
+            margin-left: 40px;
+        }
+        &--gutters-special-large>div {
+            padding-left: 40px;
+        }
+        &--gutters-special-small {
+            margin-left: -45px;
+        }
+        &--gutters-special-small>div {
+            padding-left: 45px;
+        }
         &--t-padding {
             padding-top: 80px;
         }

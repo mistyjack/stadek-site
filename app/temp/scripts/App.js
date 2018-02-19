@@ -11809,6 +11809,7 @@ var Carousel = function () {
     function Carousel() {
         _classCallCheck(this, Carousel);
 
+        this.singleSlide = (0, _jquery2.default)('.single-slide');
         this.slidingImg = (0, _jquery2.default)('.sliding-images');
         this.startSliding();
     }
@@ -11817,14 +11818,39 @@ var Carousel = function () {
         key: 'startSliding',
         value: function startSliding() {
             this.slidingImg.slick({
+                centerMode: true,
+                centerPadding: '60px',
+                slidesToShow: 3,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                }, {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }]
+            });
+
+            this.singleSlide.slick({
+                autoplay: true,
+                autoplaySpeed: 2500,
                 dots: true,
                 infinite: true,
                 speed: 500,
                 fade: true,
-                cssEase: 'linear',
-                arrows: true,
-                autoplay: true,
-                autoplayspeed: 2000
+                arrows: false,
+                cssEase: 'linear'
             });
         }
     }]);

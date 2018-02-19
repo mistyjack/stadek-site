@@ -22,6 +22,13 @@
             }
         }
     }
+    &--about-al {
+        background-color: rgba(255, 255, 255, .8);
+        @mixin atLarge {
+            background: url('/assets/images/kimon-maritz-183501.jpg') top center no-repeat;
+            background-size: cover;
+        }
+    }
     &--no-b-pad-until-medium {
         padding-bottom: 0;
         @mixin atMedium {
